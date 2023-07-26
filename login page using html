@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             min-height: 100vh; 
+            background-color: white; 
+        }
+        .first{
+            width:400px;
+            border: 5px solid rgba(255, 255, 255, .2);
+            box-shadow: 0 0 15px  rgba(0, 0, 0, .2);
+            align-items:center;
+        }
+        .log{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <form action="">
+            <div class="log">
+            <h1>Login</h1>
+        </div>
+            <div class="input-box">
+                <h3>Username</h3>
+                <input type="text" required>
+            </div>
+            <div class="input-box">
+                <h3>password</h3>
+                <input type="password" required>
+            </div>
+            <button name="submit" >Login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
